@@ -1,0 +1,70 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+
+.red{
+    background-color: rgb(255, 83, 83);
+}
+.green{
+    background-color: rgb(94, 255, 94);
+}
+.yellow{
+    background-color: rgb(255, 255, 97);
+}
+.blue{
+    background-color: rgb(12, 186, 255);
+}
+.flash{
+    background-color: white;
+}
+.greenflash{
+    background-color: green;
+}
+.gameover{
+    background: rgb(214,214,212);
+    background: linear-gradient(177deg, rgba(214,214,212,1) 0%, rgba(233,0,0,1) 97%, rgba(101,56,77,1) 100%);}
+body{
+    text-align: center;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+
+
+.start {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  .start:hover {
+    letter-spacing: 3px;
+    background-color: hsl(218, 84%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(7, 96, 238) 0px 7px 29px 0px;
+  }
+  
+  .start:active {
+    letter-spacing: 3px;
+    background-color: hsla(214, 100%, 47%, 0.975);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(0, 105, 251) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
