@@ -1,0 +1,53 @@
+.calci {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    grid-template-rows: repeat(5, 1fr); /* 5 rows (1 for display, 4 for buttons) */
+    gap: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .result {
+    grid-column: span 4; /* Spanning all 4 columns */
+    background-color: lightgray;
+    padding: 20px;
+    font-size: 24px;
+    text-align: right;
+    border-radius: 5px;
+  }
+  
+  .numbers, .operators, .compute {
+    background-color: #ddd;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .numbers:hover, .operators:hover {
+    background-color: #bbb;
+  }
+  
+  .operators {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .compute {
+    background-color: green;
+    color: white;
+  }
+  
