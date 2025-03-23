@@ -1,6 +1,6 @@
 const figlet=require("figlet");
 
-figlet("Thudumu  mythri ",(err,data)=>{
+figlet("Hello world ",(err,data)=>{
     if(err){
         console.dir(err);
         return;
