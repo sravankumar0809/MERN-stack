@@ -1,1 +1,1 @@
-mern stack notes.
+mern stack notes
